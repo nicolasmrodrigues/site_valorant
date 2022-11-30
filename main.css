@@ -28,11 +28,10 @@ h3 {
 #agentes img {
     margin-top: 22px;
     width: 100%;
-    margin-bottom: 0px;
 }
 
-#agentes .container img {
-    margin-top:90px;
+#agentes .container .ultimo-paragrafo {
+    margin-bottom:90px;
 }
 
 section {
@@ -45,7 +44,7 @@ section {
 }
 
 header img {
-    margin-bottom: 32px;
+    margin-bottom: 25px;
     width: 100%;
     display: block;
     margin-left: auto;
@@ -61,24 +60,46 @@ header h1, time {
     justify-content: space-between;
 }
 
+ul {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+ul > ul {
+    width: 97%;
+    margin-top: 5px;
+    margin-left: 10;
+    margin-right: 0;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     margin-top: 8px;
 }
 
-#sobre-jogo a {
+a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #8ab4f8
+    
 }
 
-#sobre-jogo a:hover {
+a:hover {
     text-decoration: underline;
+}
+
+header ul {
+    margin-bottom: 30px;
 }
 
 time {
     display: block;
-    margin-bottom: 22px;
+    margin-bottom: 18px;
+    margin-top: 5px;
     font-family: 'Alexandria', sans-serif;
     font-weight: 100;
     color: #656565;
