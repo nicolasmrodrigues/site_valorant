@@ -76,7 +76,7 @@ ul > ul {
     margin-right: 0;
 }
 
-p {
+section p {
     font-family: 'Roboto', sans-serif;
     margin-top: 8px;
 }
@@ -103,4 +103,47 @@ time {
     font-family: 'Alexandria', sans-serif;
     font-weight: 100;
     color: #656565;
+}
+
+form input, button {
+    color: #000000;
+    font-size:  medium;
+    display: block;
+    border: 0px;
+    width: 320px;
+    border-radius: 4px;
+    margin-top: 8px;
+    padding: 12px 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+form button {
+    background-color: #ffb92e;
+    font-weight: bold;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #fdc048;
+}
+
+#newsletter h2{
+    margin-bottom: 32px;
+}
+
+footer {
+    background-color: #161b22;
+    padding: 22px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
 }
