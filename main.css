@@ -17,7 +17,6 @@ h1 {
 
 h2 {
     font-size: 32px;
-    margin-bottom: 8px;
 }
 
 h3 {
@@ -25,55 +24,41 @@ h3 {
     margin-top: 15px;
 }
 
-#agentes img {
+#tipos-de-agentes img {
     margin-top: 22px;
     width: 100%;
 }
 
-#agentes .container .ultimo-paragrafo {
+#tipos-de-agentes .container .ultimo-paragrafo {
     margin-bottom:90px;
 }
 
-section {
-    margin-bottom: 32px;
+section, header h1, time {
     width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
 }
 
 header img {
     margin-bottom: 25px;
     width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
 }
 
-header h1, time {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
+section {
+    margin-bottom: 32px;
 }
 
-ul {
-    width: 70%;
-    display: block;
+nav ul {
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12px;
-    justify-content: space-between;
 }
 
 ul > ul {
-    width: 97%;
+    width: 95%;
     margin-top: 5px;
-    margin-left: 10;
-    margin-right: 0;
+    margin-bottom: 30px;
 }
 
 section p {
@@ -92,12 +77,7 @@ a:hover {
     text-decoration: underline;
 }
 
-header ul {
-    margin-bottom: 30px;
-}
-
 time {
-    display: block;
     margin-bottom: 18px;
     margin-top: 5px;
     font-family: 'Alexandria', sans-serif;
@@ -136,14 +116,39 @@ form button:hover {
 }
 
 footer {
+    display: flex;
     background-color: #161b22;
     padding: 22px 0px;
-    display: flex;
-    justify-content: space-between;
 }
 
-footer p {
+footer p{
     font-family: 'Poppins', sans-serif;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+footer img {
+    max-width:30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+#youtube {
+    max-width:35px;
+    max-height:35px;
+    width: auto;
+    height: auto;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    margin-right: 80px;
+    margin-left: 450px;
 }
