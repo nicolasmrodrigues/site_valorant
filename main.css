@@ -1,5 +1,5 @@
 body {
-    background-color: #181717;
+    background-color: #111111;
 }
 
 * {
@@ -7,21 +7,26 @@ body {
     color: #E8EAED;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    margin-top: 50px;
+    margin-bottom: 0px;
     font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
+    font-weight: normal;
     font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
-    font-size: 27px;
+    font-weight: normal;
+    font-size: 28px;
     margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #tipos-de-agentes img {
@@ -30,7 +35,7 @@ h3 {
 }
 
 #tipos-de-agentes .container .ultimo-paragrafo {
-    margin-bottom:90px;
+    margin-bottom:80px;
 }
 
 section, header h1, time {
@@ -40,9 +45,14 @@ section, header h1, time {
     margin-right: auto;
 }
 
-header img {
+.bannerImage {
     margin-bottom: 25px;
     width: 100%;
+}
+
+header {
+    padding: 35px 0px 12px 0px;
+    margin-bottom: 18px;
 }
 
 section {
@@ -62,12 +72,11 @@ ul > ul {
 }
 
 section p {
-    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     margin-top: 8px;
 }
 
 a {
-    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #8ab4f8
     
@@ -78,14 +87,14 @@ a:hover {
 }
 
 time {
-    margin-bottom: 18px;
     margin-top: 5px;
     font-family: 'Alexandria', sans-serif;
     font-weight: 100;
-    color: #656565;
+    color: #999999;
 }
 
 form input, button {
+    font-family: 'Montserrat', sans-serif;
     color: #000000;
     font-size:  medium;
     display: block;
@@ -103,7 +112,7 @@ input:focus {
 form button {
     background-color: #ffb92e;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 16px;
     cursor: pointer;
 }
 
@@ -116,16 +125,16 @@ form button:hover {
 }
 
 footer {
+    justify-content: space-between;
     display: flex;
-    background-color: #161b22;
-    padding: 22px 0px;
+    background-color: #080808;
+    padding: 22px;
+    align-items: center;
 }
 
 footer p{
     font-family: 'Poppins', sans-serif;
-    margin-left: 50px;
-    margin-top: auto;
-    margin-bottom: auto;
+    
 }
 
 
@@ -136,19 +145,113 @@ footer img {
     height: auto;
     margin-left: 0px;
     margin-right: 20px;
-    border-radius: 4px;
-}
-
-#youtube {
-    max-width:35px;
-    max-height:35px;
-    width: auto;
-    height: auto;
 }
 
 footer ul {
+    align-items: center;
     display: flex;
     list-style: none;
-    margin-right: 80px;
-    margin-left: 450px;
+}
+
+#requisitos ul {
+    padding-left: 60px;
+    margin-top: 17px;
+    margin-bottom: 21px;
+    font-size: 17px;
+}
+
+#requisitos li {
+    margin-top: 10px;
+    
+}
+
+ul#lista-requisitos-recomendados {
+    margin-bottom: 90px;
+}
+
+#requisitos h3{
+    font-size: 21px;
+    margin-left: 20px;
+    
+}
+
+#requisitos h2 {
+    margin-bottom: 29px;
+}
+
+#success-message {
+    background-color: #159415;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    max-width: 320px;
+    border-radius: 4px;
+    display: none;
+}
+
+label {
+    font-size: 18px;
+}
+
+#facebook-logo {
+    width: 22px;
+    height: 22px;
+}
+
+#youtube-logo {
+    width: 27px;
+    height: 20px;
+}
+
+#linkedin-logo {
+    width: 23px;
+    height: 22px;
+}
+
+#twitter-logo {
+    width: 26px;
+    height: 22px;
+}
+
+#github-logo {
+    width: 24px;
+    height: 24px;
+}
+
+#twitch-logo {
+    width: 22px;
+    height: 22px;
+}
+
+#tiktok-logo {
+    width: 22px;
+    height: 22px;
+}
+
+#tel {
+    margin-right: 400px;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 16px;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    section, header h1, time {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
