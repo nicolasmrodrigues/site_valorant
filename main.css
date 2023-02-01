@@ -131,6 +131,7 @@ footer {
     background-color: #080808;
     padding: 22px;
     align-items: center;
+    vertical-align: middle;
 }
 
 footer p{
@@ -195,28 +196,28 @@ label {
 }
 
 #facebook-logo {
-    width: 22px;
-    height: 22px;
-}
-
-#youtube-logo {
-    width: 27px;
+    width: 20px;
     height: 20px;
 }
 
+#youtube-logo {
+    width: 25px;
+    height: 18px;
+}
+
 #linkedin-logo {
-    width: 23px;
-    height: 22px;
+    width: 21px;
+    height: 20px;
 }
 
 #twitter-logo {
-    width: 26px;
-    height: 22px;
+    width: 24px;
+    height: 20px;
 }
 
 #github-logo {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
 }
 
 #twitch-logo {
@@ -225,8 +226,8 @@ label {
 }
 
 #tiktok-logo {
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
 }
 
 html, body {
@@ -249,10 +250,7 @@ html, body {
 
     section, header h1, time {
         width: 90%;
-        max-width: 90%;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     footer {
@@ -265,7 +263,7 @@ html, body {
     }
 
     footer ul {
-        padding-top: 18px;
+        padding-top: 16px;
     }
 
 }
