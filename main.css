@@ -99,10 +99,10 @@ form input, button {
     font-size:  medium;
     display: block;
     border: 0px;
-    width: 320px;
+    width: 280px;
     border-radius: 4px;
     margin-top: 8px;
-    padding: 12px 20px;
+    padding: 8px 8px;
 }
 
 input:focus {
@@ -129,7 +129,7 @@ footer {
     justify-content: space-between;
     display: flex;
     background-color: #080808;
-    padding: 22px;
+    padding: 24px 16px 24px 16px;
     align-items: center;
     vertical-align: middle;
 }
@@ -196,38 +196,38 @@ label {
 }
 
 #facebook-logo {
-    width: 20px;
-    height: 20px;
+    width: 19px;
+    height: 19px;
 }
 
 #youtube-logo {
-    width: 25px;
-    height: 18px;
+    width: 24px;
+    height: 17px;
 }
 
 #linkedin-logo {
-    width: 21px;
-    height: 20px;
+    width: 20px;
+    height: 19px;
 }
 
 #twitter-logo {
-    width: 24px;
-    height: 20px;
+    width: 23px;
+    height: 19px;
 }
 
 #github-logo {
-    width: 22px;
-    height: 22px;
+    width: 21px;
+    height: 21px;
 }
 
 #twitch-logo {
-    width: 22px;
-    height: 22px;
+    width: 21px;
+    height: 21px;
 }
 
 #tiktok-logo {
-    width: 20px;
-    height: 20px;
+    width: 19px;
+    height: 19px;
 }
 
 html, body {
@@ -259,7 +259,7 @@ html, body {
 
     footer p {
         font-size: 12px;
-        margin-bottom: 8px;
+        margin-bottom: 4px;
     }
 
     footer ul {
