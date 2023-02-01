@@ -125,6 +125,7 @@ form button:hover {
 }
 
 footer {
+    width: 100%;
     justify-content: space-between;
     display: flex;
     background-color: #080808;
@@ -134,7 +135,6 @@ footer {
 
 footer p{
     font-family: 'Poppins', sans-serif;
-    
 }
 
 
@@ -143,7 +143,6 @@ footer img {
     max-height:30px;
     width: auto;
     height: auto;
-    margin-left: 0px;
     margin-right: 20px;
 }
 
@@ -230,10 +229,6 @@ label {
     height: 22px;
 }
 
-#tel {
-    margin-right: 400px;
-}
-
 html, body {
     overflow-x: hidden;
 }
@@ -259,4 +254,18 @@ html, body {
         margin-left: auto;
         margin-right: auto;
     }
+
+    footer {
+        display: block;
+    }
+
+    footer p {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    footer ul {
+        padding-top: 18px;
+    }
+
 }
