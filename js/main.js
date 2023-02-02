@@ -30,6 +30,14 @@ $(document).ready(function() {
             email: {
                 required: true
             }
+        },
+        messages: {
+            nome: {
+                required: "Este campo é obrigatório."
+            },
+            email: {
+                required: "Este campo é obrigatório."
+            }
         }
     })
 })

@@ -95,14 +95,21 @@ time {
 
 form input, button {
     color: #000000;
-    font-size:  16px;
     display: block;
-    margin-top: 8px;
 }
+
+label {
+    font-size: 12px;
+    display: block;
+    color: #bebec7;
+    margin-bottom: 4px;
+}
+
 form input, button, #success-message {
-    border: 0px;
+    border: none;
+    font-size:  16px;
     font-family: 'Montserrat', sans-serif;
-    padding: 10px 20px; 
+    padding: 16px 26px; 
     width: 340px;
     max-width: 100%;
     border-radius: 4px;
@@ -111,8 +118,8 @@ form input, button, #success-message {
 #success-message {
     background-color: #159415;
     color: #fff;
-    font-size:  16px;
     text-align: center;
+    vertical-align: middle;
     display: none;
 }
 
@@ -123,7 +130,7 @@ input:focus {
 form button {
     background-color: #ffb92e;
     font-weight: bold;
-    margin-bottom: 16px;
+    border-radius: 24px;
     cursor: pointer;
 }
 
@@ -202,10 +209,6 @@ ul#lista-requisitos-recomendados {
     display: none;
 }
 
-label {
-    font-size: 16px;
-}
-
 #facebook-logo {
     width: 19px;
     height: 19px;
@@ -245,14 +248,33 @@ html, body {
     overflow-x: hidden;
 }
 
-#nome {
-    border: 3px solid red;
+.error {
+    border: 0.800px solid #df3c3c;
     border-radius: 4px;
 }
 
-#nome-error {
-    color: red;
+.aviso-de-aceitacao{
+    width: 340px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.aviso-de-aceitacao p {
+    font-size: 14px;
+}
+
+#nome-error, #email-error {
+    display: block;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: #df3c3c;
     font-weight: normal;
+    border: none;
+}
+
+.form-campo {
+    margin-bottom: 16px;
 }
 
 @media screen and (max-width: 767px) {
@@ -297,7 +319,7 @@ html, body {
 
     form input, button, #success-message {
         width: 280px;
-        padding: 8px;
+        padding: 12px;
     }
 
     #tipos-de-agentes .container .ultimo-paragrafo {
@@ -320,5 +342,17 @@ html, body {
         padding-left: 50px;
         margin-top: 12px;
         margin-bottom: 20px;
+    }
+
+    .aviso-de-aceitacao{
+        width: 280px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    form {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

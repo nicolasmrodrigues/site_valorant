@@ -90,9 +90,21 @@
             <section>
                 <form id="newsletter">
                     <h2>Inscreva-se na nossa Newsletter<h2>
-                    <input id="nome" type="text" placeholder="Nome" name="nome">
-                    <input id="email" type="email" placeholder="E-mail" name="email">
-                    <input id="telefone" type="tel" placeholder="Telefone" maxlength="15">
+                    <div class="form-campo">
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" name="nome">
+                    </div>
+                    <div class="form-campo">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email">
+                    </div>
+                    <div class="form-campo">
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" type="tel" maxlength="15">
+                    </div>
+                    <div class="aviso-de-aceitacao">
+                        <p>Ao clicar em "Cadastrar-se", você aceita os <a href="#">TERMOS E CONDIÇÕES DE USO</a> e a <a href="#">POLÍTICA DE PRIVACIDADE</a></p>
+                    </div>
                     <button type="submit">Enviar</button>
                 </form>
                 <p id="success-message">Sucesso</p>
