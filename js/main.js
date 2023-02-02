@@ -19,8 +19,17 @@ $(document).ready(function() {
         if (nomeValido && telefoneValido) {
             $('#success-message').slideDown(150)
 
-        } else {
-            alert('Formulário inválido.')
+        }
+    })
+
+    $('form').validate({
+        rules: {
+            nome: {
+                required: true
+            },
+            email: {
+                required: true
+            }
         }
     })
 })
