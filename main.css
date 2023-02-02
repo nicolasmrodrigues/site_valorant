@@ -140,7 +140,7 @@ footer {
     justify-content: space-between;
     display: flex;
     background-color: #080808;
-    padding: 20px 16px 20px 16px;
+    padding: 20px 16px;
     align-items: center;
     vertical-align: middle;
 }
@@ -276,7 +276,7 @@ html, body {
         display: block;
     }
 
-    footer p {
+    .footer-info p {
         font-size: 12px;
         margin-bottom: 4px;
     }
@@ -288,5 +288,9 @@ html, body {
     form input, button, #success-message {
         width: 280px;
         padding: 8px;
+    }
+
+    #tipos-de-agentes .container .ultimo-paragrafo {
+        margin-bottom:60px;
     }
 }
