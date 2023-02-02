@@ -139,7 +139,7 @@ footer {
     width: 100%;
     justify-content: space-between;
     display: flex;
-    background-color: #202020;
+    background-color: rgb(28, 28, 28);
     padding: 20px 16px;
     align-items: center;
     vertical-align: middle;
