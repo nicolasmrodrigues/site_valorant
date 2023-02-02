@@ -349,10 +349,4 @@ html, body {
         margin-top: 32px;
         margin-bottom: 32px;
     }
-    form {
-        width: 70%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
