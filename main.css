@@ -93,11 +93,6 @@ time {
     color: #999999;
 }
 
-form input, button {
-    color: #000000;
-    display: block;
-}
-
 label {
     font-size: 12px;
     display: block;
@@ -105,7 +100,9 @@ label {
     margin-bottom: 4px;
 }
 
-form input, button {
+form input, form button {
+    color: #000000;
+    display: block;
     border: none;
     font-size:  14px;
     font-family: 'Montserrat', sans-serif;
@@ -302,7 +299,7 @@ html, body {
         margin-top: 12px;
     }
 
-    form input, button {
+    form input, form button {
         width: 280px;
         padding: 12px;
     }
@@ -335,4 +332,23 @@ html, body {
         margin-bottom: 32px;
         text-align: center;
     }
+
+    #top-button {
+        display: none;
+    }
+}
+
+#top-button {
+    background-color: #ffb92e;
+    color: #000000;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 50px;
 }

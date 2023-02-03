@@ -1,5 +1,14 @@
 $(document).ready(function() {
     $('#telefone').mask('(00) 00000-0000')
+
+    $('#top-button').click(function (e) { 
+        e.preventDefault();
+        const destino = $('h1')
+        $('html').animate({
+            scrollTop: destino.offset().top - 35
+        }, 500)
+        
+    });
     
     $('form').on('submit', function(e) {
         e.preventDefault()
@@ -19,6 +28,7 @@ $(document).ready(function() {
         if (nomeValido && telefoneValido) {
             $('form button').css("background-color", "green")
             $('form button').html('SUCESSO')
+            $('form button').css("color", "white")
 
         }
     })
