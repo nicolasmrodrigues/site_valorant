@@ -105,22 +105,14 @@ label {
     margin-bottom: 4px;
 }
 
-form input, button, #success-message {
+form input, button {
     border: none;
-    font-size:  16px;
+    font-size:  14px;
     font-family: 'Montserrat', sans-serif;
-    padding: 16px 26px; 
+    padding: 14px 24px; 
     width: 340px;
     max-width: 100%;
     border-radius: 4px;
-}
-
-#success-message {
-    background-color: #159415;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
-    display: none;
 }
 
 input:focus {
@@ -197,18 +189,6 @@ ul#lista-requisitos-recomendados {
     margin-bottom: 29px;
 }
 
-#success-message {
-    background-color: #159415;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    padding: 12px 20px 12px 20px;
-    max-width: 320px;
-    border-radius: 4px;
-    display: none;
-}
-
 #facebook-logo {
     width: 19px;
     height: 19px;
@@ -255,8 +235,8 @@ html, body {
 
 .aviso-de-aceitacao{
     width: 340px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .aviso-de-aceitacao p {
@@ -264,7 +244,7 @@ html, body {
 }
 
 .aviso-de-aceitacao p a:hover {
-    color: #5685d1;
+    color: #5685d1;;
     text-decoration: none;
 }
 
@@ -322,7 +302,7 @@ html, body {
         margin-top: 12px;
     }
 
-    form input, button, #success-message {
+    form input, button {
         width: 280px;
         padding: 12px;
     }

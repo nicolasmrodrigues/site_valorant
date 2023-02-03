@@ -15,9 +15,10 @@ $(document).ready(function() {
         if (telefone.val().length === 15) {
             telefoneValido = true
         }
-        
+
         if (nomeValido && telefoneValido) {
-            $('#success-message').slideDown(150)
+            $('form button').css("background-color", "green")
+            $('form button').html('SUCESSO')
 
         }
     })
