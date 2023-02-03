@@ -145,15 +145,6 @@ footer p{
     font-family: 'Poppins', sans-serif;
 }
 
-
-footer img {
-    max-width:30px;
-    max-height:30px;
-    width: auto;
-    height: auto;
-    margin-right: 20px;
-}
-
 footer ul {
     align-items: center;
     display: flex;
@@ -264,15 +255,21 @@ html, body {
     background-color: #ffb92e;
     color: #000000;
     position: fixed;
-    bottom: 40px;
-    right: 50px;
+    bottom: 70px;
+    right: 60px;
     z-index: 1;
     width: 70px;
     height: 70px;
     font-size: 30px;
     border: none;
+    cursor: pointer;
     font-family: 'Poppins', sans-serif;
     border-radius: 50px;
+}
+
+.footer-social-media-links ul li{
+    vertical-align: middle;
+    margin-right: 16px;
 }
 
 @media screen and (max-width: 767px) {
