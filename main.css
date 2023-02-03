@@ -259,6 +259,22 @@ html, body {
     margin-bottom: 16px;
 }
 
+#back-to-top-button {
+    display: none;
+    background-color: #ffb92e;
+    color: #000000;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 50px;
+}
+
 @media screen and (max-width: 767px) {
     h1 {
         font-size: 24px;
@@ -333,22 +349,12 @@ html, body {
         text-align: center;
     }
 
-    #top-button {
+    #back-to-top-button {
         display: none;
+        width: 50px;
+        font-size: 20px;
+        height: 50px;
+        bottom: 20px;
+        right: 30px;
     }
-}
-
-#top-button {
-    background-color: #ffb92e;
-    color: #000000;
-    position: fixed;
-    bottom: 40px;
-    right: 50px;
-    z-index: 1;
-    width: 70px;
-    height: 70px;
-    font-size: 30px;
-    border: none;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 50px;
 }
