@@ -357,4 +357,13 @@ html, body {
         bottom: 20px;
         right: 30px;
     }
+
+    nav > ul {
+        width: 75%;
+        
+    }
+
+    ul > ul {
+        width: 85%;
+    }
 }
