@@ -503,7 +503,7 @@ html, body {
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 26px;
         margin-bottom: 16px;
     }
 
@@ -513,8 +513,8 @@ html, body {
     
     h3 {
         margin-top: 5px;
-        padding-bottom: 22px;
-        font-size: 20px;
+        padding-bottom: 10px;
+        font-size: 22px;
     }
 
     section p {
