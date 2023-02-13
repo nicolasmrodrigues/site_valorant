@@ -482,7 +482,7 @@ html, body {
         margin-left: 18px;
     }
     header {
-        padding-left: 20px;
+        padding-left: 0;
     }
     body {
         display: block;
